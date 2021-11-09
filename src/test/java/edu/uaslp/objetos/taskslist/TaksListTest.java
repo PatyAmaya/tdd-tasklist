@@ -45,7 +45,7 @@ public class TaksListTest {
     }
 
     @Test
-    public void givenANewTask_validateInfoWithDueDateOnTask() {
+    public void givenANewTask_validateInfoWithDueDateOnTask() throws TaskListException {
         // Given:
         Task task = new Task();
 
